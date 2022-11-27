@@ -1,4 +1,4 @@
-# Lasrever contracts
+# Space creation
 
 _**We are working on the visual constructor right now. But for upgradable versions you need to use this manual anyway**_
 
@@ -81,7 +81,9 @@ You will get 3 contracts after this.
 
 ### Adding attributes
 You just need to call _addAttribute_ method on space contract.
-You need to define 3 params:
+You need to define 3 parameters:
 1. **Id**, which will be using for getting json file with attribute definition
 2. **Burn Amount in wei**, how much of coin will be burned during transactions. Note that this value is provided in ETH. So it depends on the price how much tokens will be burned.
 3. **Supply**, how much attributes can be minted. Provide **0** for unlimited
+
+Space will appear in dapp shortly. If not please contact with us by email reveral@lasrever.io
