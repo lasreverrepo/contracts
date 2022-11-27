@@ -13,7 +13,7 @@ import "@openzeppelin/contracts/governance/utils/IVotes.sol";
 import "@openzeppelin/contracts/utils/math/SafeCast.sol";
 import "@openzeppelin/contracts/utils/math/Math.sol";
 
-contract Space is ISpace, Ownable, IVotes {
+contract SpaceNonUpgradable is ISpace, Ownable, IVotes {
     using Address for address;
 
     IUniswapV2Router02 private _uniswapV2Router;
