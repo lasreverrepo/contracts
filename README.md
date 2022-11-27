@@ -86,4 +86,4 @@ You need to define 3 parameters:
 2. **Burn Amount in wei**, how much of coin will be burned during transactions. Note that this value is provided in ETH. So it depends on the price how much tokens will be burned.
 3. **Supply**, how much attributes can be minted. Provide **0** for unlimited
 
-Space will appear in dapp shortly. If not please contact with us by email reveral@lasrever.io
+Space will appear in dapp shortly. If not please contact with us by email reversal@lasrever.io
