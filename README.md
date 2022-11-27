@@ -36,7 +36,7 @@ networks: {
 ```
 Don't forget to adjust gas price. As deployment takes time.
 
-##Storage configuration
+## Storage configuration
 Upload json files for each attribute to your storage. 
 Names should be like _1.json_, _2.json_, _3.json_ etc.
 
@@ -51,9 +51,9 @@ Use following structure:
 }
 ```
 
-##Deploying space
+## Deploying space
 
-###Upgradable version
+### Upgradable version
 
 Go to _scripts/deploy-space-upgradable.js_ and change uri placeholder to url prefix to you storage.
 
@@ -67,7 +67,7 @@ Then you can simply run
 
 You will get 3 contracts after this. 
 
-###Non upgradable version
+### Non upgradable version
 
 ```shell
 1. Deploy SpaceNonUpgradable.sol contract and provide 
@@ -79,7 +79,7 @@ You will get 3 contracts after this.
     Provide Space Address and Timelock Address
 ```
 
-###Adding attributes
+### Adding attributes
 You just need to call _addAttribute_ method on space contract.
 You need to define 3 params:
 1. **Id**, which will be using for getting json file with attribute definition
