@@ -5,7 +5,7 @@ async function main() {
   const Governor = await ethers.getContractFactory("SoulboundGovernor");
   const TimelockControllerUpgradeable = await ethers.getContractFactory("TimelockControllerUpgradeable");
 
-  const space = await upgrades.deployProxy(Space, ["<Pics storage uri>", "<Name>", "0xDb6770F50728e3FB61fAc481Da6641C802F8B9A7"]);
+  const space = await upgrades.deployProxy(Space, ["<Pics storage uri>", "<Name>", "0x7d1EC0085368842747D47bb444Eee88d08C7419a"]);
   await space.deployed();
   console.log("Space deployed to:", space.address);
 
