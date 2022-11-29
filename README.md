@@ -71,7 +71,7 @@ You will get 3 contracts after this.
 
 ```shell
 1. Deploy SpaceNonUpgradable.sol contract and provide 
-    Uri, Name and address to Soulbound (0xDb6770F50728e3FB61fAc481Da6641C802F8B9A7)
+    Uri, Name and address to Soulbound (0x7d1ec0085368842747d47bb444eee88d08c7419a)
 
 2. Deploy Timelock from here https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/governance/TimelockController.sol
 
